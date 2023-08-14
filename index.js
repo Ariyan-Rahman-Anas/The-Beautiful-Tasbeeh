@@ -43,9 +43,9 @@ let allahuAkbarDecrement = document.getElementsByClassName("decrement")[2].addEv
 let resetTasbeeh = document.getElementsByClassName("reset-btn")[0].addEventListener("click", function(){
     // allahuAkbarDisplay.innerText = 0;
     let tryt = document.getElementsByClassName("count")
-    console.log(tryt);
+    // console.log(tryt);
     for(const item of tryt){
-        // item.innerText = 0;
-        console.log(item.innerText);
+        item.innerText = 0;
+        // console.log(item.innerText);
     }
 })
